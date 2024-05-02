@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 .logos {
-  padding-left: 675px;
+  margin-left: auto;
 }
 .intro{
   align-items: center;
@@ -23,7 +23,7 @@ body {
   margin-bottom: 750px;
 }
 .title {
-  font-size: 32px;
+  font-size: 210%;
   font-family: cinzel, serif;
   background-color: rgb(74, 74, 74);
   color: rgb(255, 255, 255);
@@ -41,9 +41,9 @@ body {
   border-style: solid;
   border: 3px solid #343434;
   border-radius: 3px;
-  padding-top: 50px;
-  padding-right: 20px;
-  padding-left: 100px;
+  padding-top: 5%;
+  margin-left: auto;
+  padding-right: 8%;
 }
 .instagarm-logo {
   width: 75px;
@@ -91,7 +91,7 @@ body {
   font-weight: bold;
 }
 .acheivements{
-  padding-left: 620px;
+  padding-left: 42%;
 }
 .karate-olympics-qualifier {
   color: white;
