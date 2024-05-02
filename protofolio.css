@@ -1,0 +1,102 @@
+body {
+  background-color: #343434;
+  margin: 0;
+  padding: 0;
+}
+.title-bar {
+  width: auto;
+  height: 90px;
+  background-color: rgb(74, 74, 74);
+  display: flex;
+  align-items: center;
+}
+.logos {
+  padding-left: 675px;
+}
+.intro{
+  align-items: center;
+  display: flex;
+  width: aut;
+  height: 100px;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 750px;
+}
+.title {
+  font-size: 32px;
+  font-family: cinzel, serif;
+  background-color: rgb(74, 74, 74);
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  display: inline-block;
+}
+.full-stack-developer{
+  color: rgb(217, 217, 217);
+  padding-left: 13px;
+  padding-top: 10px;
+}
+.main-image {
+  width: 400px;
+  height: auto;
+  border-style: solid;
+  border: 3px solid #343434;
+  border-radius: 3px;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 100px;
+}
+.instagarm-logo {
+  width: 75px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-bottom: 7px;
+}
+.facebook-logo {
+  width: 65px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-left: 5px;
+}
+.linkedin-logo {
+  height: 70px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-left: 10px;
+}
+
+.linkedin-logo:hover, .github-logo:hover, .instagarm-logo:hover, .instagarm-logo:hover, .facebook-logo:hover {
+  transform: scale(1.25);
+}
+.github-logo {
+  width: 90px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-bottom: 9px;
+}
+.instgarm-logo:active, .facebook-logo:active, .linkedin-logo:active, .github-logo:active {
+  opacity: 0.6;
+}
+.instagram-link, .facebook-link, .linked-in, .github-link {
+  color: rgb(74, 74, 74);
+} 
+.description {
+  color: white;
+  width: 750px;
+  font-family: Roboto; 
+  font-size: 25px;
+  display: inline-block;
+  line-height: 1.7;
+  padding-left: 100px;
+}
+.acheivements-place {
+  color: white;
+  font-size: 40px;
+  display: block;
+  font-weight: bold;
+}
+.acheivements{
+  padding-left: 620px;
+}
+.karate-olympics-qualifier {
+  color: white;
+  font-size: 22px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
