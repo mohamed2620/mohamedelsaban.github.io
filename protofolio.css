@@ -85,5 +85,23 @@ body {
   line-height: 1.7;
   padding-left: 100px;
 }
-
+.resume-download {
+ padding-left: 45%;
+ display: inline-block;
+ text-decoration: none;
+}
+.download-resume-text {
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: color 1s, border-color 1s, border 0.15s;
+  size: 400%;
+}
+.download-resume-text:hover {
+  color: white;
+  background-color: #343434;
+  border-color: white;
+  border: 2px solid #ffffff;
+}
 
