@@ -122,5 +122,8 @@ body {
   .full-stack-developer {
     font-size: 65%
   }
+  .content {
+    width: 100%;
+  }
 }
 
