@@ -3,6 +3,11 @@ body {
   margin: 0;
   padding: 0;
 }
+.content {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
 .title-bar {
   width: auto;
   height: 90px;
@@ -13,38 +18,32 @@ body {
 .logos {
   margin-left: auto;
 }
-.intro{
-  align-items: center;
-  display: flex;
-  width: aut;
-  height: 100px;
-  justify-content: start;
-  flex-wrap: wrap;
-  margin-bottom: 750px;
-}
 .title {
   font-size: 210%;
   font-family: cinzel, serif;
   background-color: rgb(74, 74, 74);
   color: rgb(255, 255, 255);
-  padding-left: 40px;
-  display: inline-block;
+  padding-left: 3%;
   font-weight: 100;
 }
 .full-stack-developer{
   color: rgb(217, 217, 217);
-  padding-left: 13px;
-  padding-top: 10px;
+  padding-left: 0.75%;
+  padding-top: 0.75%;
+}
+.hero-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-image {
-  width: 400px;
-  height: auto;
+  width: 40%;
   border-style: solid;
   border: 3px solid #343434;
   border-radius: 3px;
-  padding-top: 5%;
+  display: block;
   margin-left: auto;
-  padding-right: 8%;
+  margin-right: auto;
 }
 .instagarm-logo {
   width: 75px;
@@ -78,30 +77,33 @@ body {
 } 
 .description {
   color: white;
-  width: 750px;
+  width: 100%;
   font-family: Roboto; 
   font-size: 25px;
   display: inline-block;
   line-height: 1.7;
-  padding-left: 100px;
 }
 .resume-download {
- padding-left: 45%;
- display: inline-block;
  text-decoration: none;
 }
 .download-resume-text {
   color: black;
   background-color: white;
-  padding: 10px 20px;
+  padding: 2% 3%;
   border-radius: 10px;
-  transition: color 1s, border-color 1s, border 0.15s;
+  transition: color 0.5s, border-color 2s, border 0.10s;
   size: 400%;
+  text-align: center;
+  margin: 0;
 }
 .download-resume-text:hover {
   color: white;
   background-color: #343434;
   border-color: white;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  
 }
 
