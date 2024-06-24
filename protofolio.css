@@ -1,0 +1,109 @@
+body {
+  background-color: #343434;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
+.title-bar {
+  width: auto;
+  height: 90px;
+  background-color: rgb(74, 74, 74);
+  display: flex;
+  align-items: center;
+}
+.logos {
+  margin-left: auto;
+}
+.title {
+  font-size: 210%;
+  font-family: cinzel, serif;
+  background-color: rgb(74, 74, 74);
+  color: rgb(255, 255, 255);
+  padding-left: 3%;
+  font-weight: 100;
+}
+.full-stack-developer{
+  color: rgb(217, 217, 217);
+  padding-left: 0.75%;
+  padding-top: 0.75%;
+}
+.hero-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-image {
+  width: 40%;
+  border-style: solid;
+  border: 3px solid #343434;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.instagarm-logo {
+  width: 75px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-bottom: 7px;
+}
+.facebook-logo {
+  width: 65px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-left: 5px;
+}
+.linkedin-logo {
+  height: 70px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-left: 10px;
+}
+
+.linkedin-logo:hover, .github-logo:hover, .instagarm-logo:hover, .instagarm-logo:hover, .facebook-logo:hover {
+  transform: scale(1.25);
+}
+.github-logo {
+  width: 90px;
+  transition: transform 0.15s, opacity 0.25s;
+  padding-bottom: 9px;
+}
+.instgarm-logo:active, .facebook-logo:active, .linkedin-logo:active, .github-logo:active {
+  opacity: 0.6;
+}
+.instagram-link, .facebook-link, .linked-in, .github-link {
+  color: rgb(74, 74, 74);
+} 
+.description {
+  color: white;
+  width: 100%;
+  font-family: Roboto; 
+  font-size: 25px;
+  display: inline-block;
+  line-height: 1.7;
+}
+.resume-download {
+ text-decoration: none;
+}
+.download-resume-text {
+  color: black;
+  background-color: white;
+  padding: 2% 3%;
+  border-radius: 10px;
+  transition: color 0.5s, border-color 2s, border 0.10s;
+  size: 400%;
+  text-align: center;
+  margin: 0;
+}
+.download-resume-text:hover {
+  color: white;
+  background-color: #343434;
+  border-color: white;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  
+}
+
