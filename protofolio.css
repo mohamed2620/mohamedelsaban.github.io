@@ -1,5 +1,5 @@
 body {
-  background-color: #343434;
+  background-color: #353131;
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@ body {
 .title-bar {
   width: auto;
   height: 90px;
-  background-color: rgb(74, 74, 74);
+  background-color: rgb(72, 72, 72);
   display: flex;
   align-items: center;
 }
@@ -91,7 +91,7 @@ body {
   background-color: white;
   padding: 2% 3%;
   border-radius: 10px;
-  transition: color 0.5s, border-color 2s, border 0.10s;
+  transition: color 1s, border-color 2s, border 0.10s;
   size: 400%;
   text-align: center;
   margin: 0;
@@ -104,6 +104,15 @@ body {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  
+  .instagram-link, .facebook-link, .linked-in, .github-link {
+    display: none;
+  } 
+  .full-stack-developer {
+    padding-top: 1.5%;
+    padding-left: 0.9%;
+  }
+  .main-image{
+    width: 65%;
+  }
 }
 
