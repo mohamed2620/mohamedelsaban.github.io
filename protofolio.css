@@ -1,5 +1,5 @@
 body {
-  background-color: #353131;
+  background-color: #201e1e;
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,6 @@ body {
   max-width: 1000px;
 }
 .title-bar {
-  width: auto;
   height: 100%;
   background-color: rgb(72, 72, 72);
   display: flex;
@@ -94,9 +93,9 @@ body {
   padding: 2% 3%;
   border-radius: 10px;
   transition: color 1s, border-color 2s, border 0.10s;
-  size: 400%;
   text-align: center;
   margin: 0;
+  font-weight: bold;
 }
 .download-resume-text:hover {
   color: white;
@@ -105,11 +104,48 @@ body {
   border: 1px solid #ffffff;
   cursor: pointer;
 }
-.footer {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  margin: 0px;
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
 }
+footer div {
+  width: 25%;
+}
+footer h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer p,
+footer a,
+footer i {
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  text-decoration: none;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a i {
+  font-size: 1.2em;
+}
+
 @media (max-width: 768px) {
   .instagram-link, .facebook-link, .linked-in, .github-link {
     display: none;
@@ -131,5 +167,14 @@ body {
     font-size: 80%;
     width: 100%;
   }
+  footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div {
+    width: 100%;
+    text-align: center;
+}
 }
 
