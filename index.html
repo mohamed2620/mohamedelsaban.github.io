@@ -156,14 +156,14 @@ Fluent in English and Arabic, and conversational in German, Mohamed excels in co
 </footer>
 <script>
   document.addEventListener('touchstart', function(event) {
-      if (event.target.tagName === 'BUTTON') {
-          event.target.classList.add('hover');
+      if (event.target.closest('.resume-download')) {
+          event.target.closest('.resume-download').classList.add('hover');
       }
   }, false);
 
   document.addEventListener('touchend', function(event) {
-      if (event.target.tagName === 'BUTTON') {
-          event.target.classList.remove('hover');
+      if (event.target.closest('.resume-download')) {
+          event.target.closest('.resume-download').classList.remove('hover');
       }
   }, false);
 </script>
