@@ -154,5 +154,18 @@ Fluent in English and Arabic, and conversational in German, Mohamed excels in co
       <p>&copy; 2024 Mohamed Elsaban</p>
   </div>
 </footer>
+<script>
+  document.addEventListener('touchstart', function(event) {
+      if (event.target.tagName === 'BUTTON') {
+          event.target.classList.add('hover');
+      }
+  }, false);
+
+  document.addEventListener('touchend', function(event) {
+      if (event.target.tagName === 'BUTTON') {
+          event.target.classList.remove('hover');
+      }
+  }, false);
+</script>
   </body>
 </html>
