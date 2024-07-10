@@ -89,7 +89,7 @@ body {
 }
 .download-resume-text, .visit-org-website {
   color: black;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 2% 3%;
   border-radius: 10px;
   transition: color 1s, border-color 2s, border 0.10s;
@@ -244,6 +244,24 @@ footer div {
 .experience-title{
   padding: 2%;
   padding-left: 4%;
+}
+.experience-box {
+  width: 100%;
+}
+.connect-footer {
+  padding-right: 2.5%;
+}
+.download-resume-text:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+.download-resume-text:active {
+  color: white;
+  background-color: #343434;
+  border-color: white;
+  border: 1px solid #ffffff;
+  cursor: pointer;
 }
 }
 
