@@ -15,16 +15,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&fami
     ly=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
     rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
     <link rel="icon" href="hero-logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="hero-logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Mohamed Elsaban, Computer Science, Cybersecurity, Carleton University, Karate, Coding, Java, Pythonl, Egypt, Mohamed Mazen, Mohamed Mazen Elsaban, محمد مازن الصبان">
+    <meta name="author" content="Mohamed Elsaban">
+    <meta property="og:title" content="Mohamed Elsaban - Full Stack Developer">
+    <meta property="og:description" content="Portfolio of Mohamed Elsaban, a Computer Science student specializing in Cybersecurity.">
+    <meta property="og:image" content="hero-logo.png">
+    <meta property="og:url" content="https://mohamedelsaban.com">
+    <meta property="og:type" content="website">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Mohamed Elsaban">
     <meta property="og:description" content="
     Mohamed Elsaban is a Computer Science student at Carleton University, specializing in Cybersecurity. 
     Born on June 11, 2005, in Cairo, Egypt, he is a former professional karate athlete with a black belt and 
@@ -33,10 +38,9 @@
     which launched a CubeSat prototype on April 8, 2024. Proficient in Java and Python, he is fluent in English and Arabic,
      and conversational in German. 
     His journey is marked by dedication, resilience, and a passion for technology.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/mohamed2620/mohamedelsaban.github.io/main/hero-logo.png">
-    <meta property="og:url" content="https://mohamedelsaban.com">
-    <meta property="og:type" content="website">
-    <meta name="keywords" content="Mohamed Elsaban, Computer Science, Cybersecurity, Carleton University, Karate, Coding, Java, Python">
+</head>
+
+
 
   </head>
   <body>
@@ -63,7 +67,7 @@
       </div>
     </div>
     <div class="content">
-    <img class="hero-logo" src="hero-logo.png" alt="Mohamed Mazen Elsaban">
+    <img class="hero-logo" src="hero-logo-removebg-preview.png" alt="Mohamed Mazen Elsaban">
     <a class="resume-download" href="Mohamed Elsaban - Resume.pdf" target="_blank">
       <p class="download-resume-text">
         Download Resume
@@ -71,18 +75,18 @@
     </a>
     <div class = "intro">
       <p class = "description">
-        Mohamed Elsaban, an ambitious Computer Science student at Carleton University, specializing in the dynamic field of Cybersecurity. Born on June 11, 2005, in Cairo, Egypt, Mohamed has always been driven by a passion for technology and an unyielding determination to conquer new challenges.
+        Mohamed Elsaban is a driven Computer Science student at Carleton University, specializing in Cybersecurity. Born on June 11, 2005, in Cairo, Egypt, and currently residing in Ottawa, Ontario, Mohamed has a strong passion for technology and has demonstrated resilience throughout his journey. A former professional karate athlete with a black belt and over 10 years of experience, he placed 5th in the Olympic qualifiers before the pandemic interrupted his goals.
 
-Currently residing in Ottawa, Ontario, Mohamed's journey is marked by his remarkable achievements as a former professional karate athlete. With over a decade of experience and a black belt, he impressively secured 5th place in the Olympic qualifiers. Although the pandemic disrupted his dreams, the discipline and resilience he cultivated continue to propel him forward.
-
-Mohamed's interests extend beyond martial arts and academics. He is a member of the Carleton Aerospace Astrophysics Radio Club, contributing to the Command and Data Handling team. One of their accomplishments launching a CubeSat prototype into space on April 8, 2024, from Pierrefonds, Quebec.
-
-His high school years at Centennial Collegiate Vocational Institute in Guelph laid a solid foundation for his coding prowess. Today, he is proficient in Java and Python, and is eager to explore the depths of cybersecurity.
-
-Fluent in English and Arabic, and conversational in German, Mohamed excels in connecting with people from diverse backgrounds. Whether collaborating on tech projects or embracing new opportunities, he is always ready to embark on the next adventure. Mohamed's journey is a testament to his dedication, resilience, and relentless pursuit of excellence. 
+        Beyond martial arts, Mohamed is an active member of the Carleton Aerospace Astrophysics Radio Club, contributing to the Command and Data Handling team that successfully launched a CubeSat prototype into space in 2024. He is proficient in Java and Python, fluent in English and Arabic, and conversational in German. With his diverse skill set, Mohamed is eager to continue exploring cybersecurity and embrace new challenges.        
       </p>
       <img class="main-image" src="main-image.jpg" alt="Mohamed Elsaban" title="Mohamed Mazen Elsaban">
     </div>
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <div id="experience-container" class="experience-container">
+          <!-- Experience cards will be dynamically inserted here by JavaScript -->
+      </div>
+  </section>
     <div class="experience-box">
       <h2 class="experience-title">Experience</h2>
       <ul>
@@ -168,6 +172,9 @@ Fluent in English and Arabic, and conversational in German, Mohamed excels in co
           event.target.closest('.resume-download').classList.remove('hover');
       }
   }, false);
+
+    // Call the function after DOM content is loaded
+    document.addEventListener('DOMContentLoaded', createExperienceCards);
 </script>
   </body>
 </html>
