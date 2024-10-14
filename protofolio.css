@@ -8,6 +8,9 @@ body {
     padding: 0;
     color: white;
 }
+h2 {
+    padding-left: 40%;
+}
 .content {
     margin: 0 auto;
     padding: 1rem;
@@ -93,10 +96,6 @@ hr {
 .experience-box {
     width: 100%;
     margin-top: 15%;
-}
-.experience-title{
-    padding-left: 40%;
-    
 }
 .description {
     color: white;
