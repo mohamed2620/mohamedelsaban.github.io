@@ -214,6 +214,9 @@ footer ul li a i {
     .github-link {
         display: none;
     }
+    .intro{
+        margin-bottom: 30%;
+    }
     .full-stack-developer {
         padding-top: 1.5%;
         padding-left: 0.9%;
@@ -249,8 +252,8 @@ footer ul li a i {
         border-radius: 1px;
     }
     .experience-title {
-        padding: 2%;
-        padding-left: 30%;
+        padding-left: 12%;
+        font-size: 22px;
     }
     .experience-box {
         width: 100%;
