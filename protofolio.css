@@ -4,13 +4,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
     color: white;
 }
-h2 {
-    padding-left: 40%;
+
+.experience-title {
+    text-align: center;
 }
+
 .content {
     margin: 0 auto;
     padding: 1rem;
@@ -90,8 +93,8 @@ h2 {
 }
 hr {
     border: none;
-    border-top: 3px solid white; 
-    width: 100%; 
+    border-top: 3px solid white;
+    width: 100%;
 }
 .experience-box {
     width: 100%;
@@ -207,14 +210,63 @@ footer ul li a i {
     list-style-type: none;
 }
 
+#form-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5%;
+}
+
+form * {
+    font-size: 1rem;
+    color: white;
+}
+
+input,
+textarea {
+    width: 40%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: Roboto;
+    background-color: #00000075;
+    border: 1px solid white;
+}
+
+textarea {
+    height: 6rem;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #343434;
+    color: white;
+    outline: 1px solid white;
+    border: none;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
+    input,
+    textarea {
+        width: 80%;
+    }
+
     .instagram-link,
     .facebook-link,
     .linked-in,
     .github-link {
         display: none;
     }
-    .intro{
+    .intro {
         margin-bottom: 30%;
     }
     .full-stack-developer {
@@ -252,7 +304,7 @@ footer ul li a i {
         border-radius: 1px;
     }
     .experience-title {
-        padding-left: 19%;
+        /* padding-left: 19%; */
         font-size: 22px;
     }
     .experience-box {
