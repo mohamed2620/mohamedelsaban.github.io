@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cusec_dmarc_study_2025.pdf
+Disallow: /Post_Breach_Password_Audit_Mohamed_Elsaban.pdf
+Disallow: /cusec_dmarc_study_2025.pdf.pdf
